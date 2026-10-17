@@ -39,7 +39,7 @@ b4.addEventListener("click", ()=> {
 )
   
 b5.addEventListener("click", ()=> {
-  main.src="홈화면";
+  main.src="집으로 갑니다.";
   state=5
   zero();
             }
@@ -49,12 +49,16 @@ b6.addEventListener("click", ()=> {
   main.src="목적지-세부";
   state=5
   zero();
+  b5.style.left="700px"
+  b5.style.top="600px"
             }
 )
 
 function zero() {
   b4.style.left="0px";
   b4.style.top="0px";
+  b5.style.left="0px";
+  b5.style.top="0px";
   b6.style.left="0px";
   b6.style.top="0px";
 }
