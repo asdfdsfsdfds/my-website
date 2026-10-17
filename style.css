@@ -52,6 +52,11 @@
   height:20;
   top: 0px;
   left: 0px;
+  color: transparent;
+  font-size: 0;
+  background: transparent;
+  border: none;
+  padding: 0;
 }
 
 .b5 {
@@ -64,4 +69,9 @@
   height:20;
   top: 0px;
   left: 0px;
+  color: transparent;
+  font-size: 0;
+  background: transparent;
+  border: none;
+  padding: 0;
 }
