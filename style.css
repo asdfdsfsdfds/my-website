@@ -19,26 +19,26 @@
 
 .b1 {
   top: 500px;
-  left: 520px;
+  left: 530px;
 }
 
 .b2 {
   top: 500px;
-  left: 570px;
+  left: 600px;
 }
 
 .b3 {
   top: 500px;
-  left: 620px;
-}
-
-.b4 {
-  top: 500px;
   left: 670px;
 }
 
+.b4 {
+  top: 100px;
+  left: 740px;
+}
+
 .b5 {
-  top: 500px;
+  top: 100px;
   left: 720px;
 }
 
