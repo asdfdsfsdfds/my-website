@@ -24,10 +24,10 @@ b2.addEventListener("click", ()=> {
 b3.addEventListener("click", ()=> {
   main.src="목적지-차량";
   state=3
-  b4.style.left=700px;
-  b4.style.top=340px;
-  b6.style.left=700px;
-  b6.style.top=640px;
+  b4.style.left="700px";
+  b4.style.top="340px";
+  b6.style.left="700px";
+  b6.style.top="640px";
             }
 ) 
 
@@ -53,8 +53,8 @@ b6.addEventListener("click", ()=> {
 )
 
 function zero() {
-  b4.style.left=0px;
-  b4.style.top=0px;
-  b6.style.left=0px;
-  b6.style.top=0px;
+  b4.style.left="0px";
+  b4.style.top="0px";
+  b6.style.left="0px";
+  b6.style.top="0px";
 }
