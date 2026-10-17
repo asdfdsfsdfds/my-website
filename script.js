@@ -27,7 +27,7 @@ b3.addEventListener("click", ()=> {
   b4.style.left="700px";
   b4.style.top="340px";
   b6.style.left="700px";
-  b6.style.top="640px";
+  b6.style.top="440px";
             }
 ) 
 
