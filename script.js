@@ -49,8 +49,8 @@ b6.addEventListener("click", ()=> {
   main.src="목적지-세부";
   state=5
   zero();
-  b5.style.left="720px"
-  b5.style.top="480px"
+  b5.style.left="740px"
+  b5.style.top="370px"
             }
 )
 
