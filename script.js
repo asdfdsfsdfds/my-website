@@ -9,12 +9,16 @@ let state=0;
 b1.addEventListener("click", ()=> {
   main.src="홈화면";
   state=1;
+  b4.style.left=0;
+  b4.style.top=0;
             }
 )
 
 b2.addEventListener("click", ()=> {
   main.src="지도";
   state=2
+  b4.style.left=0;
+  b4.style.top=0;
             }
 )
   
@@ -22,18 +26,22 @@ b3.addEventListener("click", ()=> {
   main.src="목적지-차량";
   state=3
   b4.style.left=700;
-  b4.style.top=300;
+  b4.style.top=340;
             }
 ) 
 
 b4.addEventListener("click", ()=> {
   main.src="목적지-세부";
   state=4
+  b4.style.left=0;
+  b4.style.top=0;
             }
 )
   
 b5.addEventListener("click", ()=> {
   main.src="홈화면";
   stete=5
+  b4.style.left=0;
+  b4.style.top=0;
             }
 )
