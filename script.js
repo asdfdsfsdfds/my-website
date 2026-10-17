@@ -39,10 +39,10 @@ b4.addEventListener("click", ()=> {
 b5.addEventListener("click", ()=> {
   main.src="집으로 갑니다.";
   zero();
-  b7.style.left="500px";
-  b7.style.top="200px";
-  b8.style.left="600px";
-  b8.style.top="200px";
+  b7.style.left="700px";
+  b7.style.top="400px";
+  b8.style.left="800px";
+  b8.style.top="400px";
             }
 )  
 
