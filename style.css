@@ -1,42 +1,44 @@
 .main {
-  display: block;
   width: 300px;
   height: auto;
+  position: absolute;
+  top: 100px;
+  left: 500px;
+}
+
+.dddd {
+  position: relative;
 }
 
 .button1 {
   position: absolute;
   width: 80px;
-  height: 30px;
+  height: 80px;
+  z-order:1;
 }
 
 .b1 {
-  top: 20px;
-  left: 20px;
+  top: 500px;
+  left: 520px;
 }
 
 .b2 {
-  top: 60px;
-  left: 20px;
+  top: 500px;
+  left: 540px;
 }
 
 .b3 {
-  top: 100px;
-  left: 20px;
+  top: 500px;
+  left: 560px;
 }
 
 .b4 {
-  top: 140px;
-  left: 20px;
+  top: 500px;
+  left: 580px;
 }
 
 .b5 {
-  top: 180px;
-  left: 20px;
+  top: 500px;
+  left: 600px;
 }
 
-.dddd {
-  position: relative;
-  width: 300px;
-  margin: 100px auto;
-}
