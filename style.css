@@ -1,6 +1,5 @@
 .main {
   width: 300px;
   height: auto;
-  display: block;
-  margin: 20 auto;
+  top:100px;
 }
