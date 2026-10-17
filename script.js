@@ -50,7 +50,7 @@ b6.addEventListener("click", ()=> {
   state=5
   zero();
   b5.style.left="740px"
-  b5.style.top="370px"
+  b5.style.top="390px"
             }
 )
 
