@@ -12,8 +12,8 @@
 
 .button1 {
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 30px;
+  height: 30px;
   z-order:1;
 }
 
@@ -24,21 +24,21 @@
 
 .b2 {
   top: 500px;
-  left: 540px;
+  left: 570px;
 }
 
 .b3 {
   top: 500px;
-  left: 560px;
+  left: 620px;
 }
 
 .b4 {
   top: 500px;
-  left: 580px;
+  left: 670px;
 }
 
 .b5 {
   top: 500px;
-  left: 600px;
+  left: 720px;
 }
 
