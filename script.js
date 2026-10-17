@@ -1,6 +1,6 @@
 const main=document.querySelector("#main");
-const b1=document.qureySelector("#b1");
-const b2=document.qureySelector("#b2");
+const b1=document.querySelector("#b1");
+const b2=document.querySelector("#b2");
 
 b1.addEventListener("click", ()=> {
   const newParagraph = document.createElement("p");
