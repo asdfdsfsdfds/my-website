@@ -83,7 +83,7 @@ b9.addEventListener("click", ()=> {
     img.src="111";
     b9.style.left="720px";
     b9.style.top="110px";
-    img.style.left="0px";
+    img.style.left="10px";
     img.style.top="0px";
     state=0;
   } else {
