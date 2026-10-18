@@ -79,12 +79,13 @@ b8.addEventListener("click", ()=> {
 b9.addEventListener("click", ()=> {
   if(state==1) {
     img.src="111";
-    b9.style.left="0px";
-    b9.style.top="0px";
+    b9.style.left="200px";
+    b9.style.top="100px";
     img.style.left="0px";
-    img.style.left="0px";
+    img.style.top="0px";
     state=0;
   } else {
+    main.src="알림";
   }
 })
 function zero() {
