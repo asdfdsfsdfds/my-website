@@ -70,8 +70,8 @@ b8.addEventListener("click", ()=> {
   img.src = "메세지";
   b5.style.left="740px";
   b5.style.top="390px";
-  b9.style.left="630px";
-  b9.style.top="220px";
+  b9.style.left="720px";
+  b9.style.top="100px";
             }
 )
 
