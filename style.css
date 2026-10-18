@@ -105,6 +105,13 @@
   padding: 0;
 }
 
+.b9 {
+  width:30;
+  height:30;
+  top:100px;
+  left:200px;
+}
+
 .img {
   position: absolute;
   width:200;
