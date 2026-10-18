@@ -7,6 +7,7 @@ const b5=document.querySelector("#b5");
 const b6=document.querySelector("#b6");
 const b7=document.querySelector("#b7");
 const b8=document.querySelector("#b8");
+const img = document.querySelector("#img");
 let state=0;
 
 b1.addEventListener("click", ()=> {
@@ -65,7 +66,6 @@ b7.addEventListener("click", ()=> {
 b8.addEventListener("click", ()=> {
   main.src="목적지-세부";
   zero();
-  const img = document.querySelector("#img");
   img.src = "메세지";
   b5.style.left="740px";
   b5.style.top="390px";
