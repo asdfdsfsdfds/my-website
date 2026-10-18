@@ -7,6 +7,7 @@ const b5=document.querySelector("#b5");
 const b6=document.querySelector("#b6");
 const b7=document.querySelector("#b7");
 const b8=document.querySelector("#b8");
+const b9=document.querySelector("#b9");
 const img = document.querySelector("#img");
 let state=0;
 
@@ -69,8 +70,16 @@ b8.addEventListener("click", ()=> {
   img.src = "메세지";
   b5.style.left="740px";
   b5.style.top="390px";
+  b9.style.left="630px";
+  b9.style.top="220px";
             }
 )
+
+b9.addEventListener("click", ()=> {
+  img.src="";
+  b9.style.left="0px";
+  b9.style.top="0px";
+})
 function zero() {
   b4.style.left="0px";
   b4.style.top="0px";
