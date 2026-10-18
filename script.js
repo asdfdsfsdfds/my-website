@@ -72,15 +72,20 @@ b8.addEventListener("click", ()=> {
   b5.style.top="390px";
   b9.style.left="720px";
   b9.style.top="170px";
+  state=1
             }
 )
 
 b9.addEventListener("click", ()=> {
-  img.src="111";
-  b9.style.left="0px";
-  b9.style.top="0px";
-  img.style.left="0px";
-  img.style.left="0px";
+  if(state==1) {
+    img.src="111";
+    b9.style.left="0px";
+    b9.style.top="0px";
+    img.style.left="0px";
+    img.style.left="0px";
+    state=0;
+  } else {
+  }
 })
 function zero() {
   b4.style.left="0px";
