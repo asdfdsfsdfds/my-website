@@ -70,8 +70,10 @@ b8.addEventListener("click", ()=> {
   img.src = "메세지";
   b5.style.left="740px";
   b5.style.top="390px";
-  b9.style.left="720px";
+  b9.style.left="680px";
   b9.style.top="170px";
+  img.style.left="120px";
+  img.style.top="540px";
   state=1
             }
 )
@@ -80,7 +82,9 @@ b9.addEventListener("click", ()=> {
   if(state==1) {
     img.src="111";
     b9.style.left="700px";
-    b9.style.top="100px";
+    b9.style.top="140px";
+    img.style.left="0px";
+    img.style.top="0px";
     state=0;
   } else {
     main.src="알림";
