@@ -71,7 +71,7 @@ b8.addEventListener("click", ()=> {
   b5.style.left="740px";
   b5.style.top="390px";
   b9.style.left="720px";
-  b9.style.top="100px";
+  b9.style.top="130px";
             }
 )
 
@@ -79,6 +79,8 @@ b9.addEventListener("click", ()=> {
   img.src="";
   b9.style.left="0px";
   b9.style.top="0px";
+  img.style.left="0px";
+  img.style.left="0px";
 })
 function zero() {
   b4.style.left="0px";
