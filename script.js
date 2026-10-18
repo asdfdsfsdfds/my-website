@@ -81,8 +81,8 @@ b8.addEventListener("click", ()=> {
 b9.addEventListener("click", ()=> {
   if(state==1) {
     img.src="111";
-    b9.style.left="715px";
-    b9.style.top="120px";
+    b9.style.left="720px";
+    b9.style.top="110px";
     img.style.left="0px";
     img.style.top="0px";
     state=0;
