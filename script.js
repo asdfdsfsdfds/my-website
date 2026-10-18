@@ -65,6 +65,13 @@ b7.addEventListener("click", ()=> {
 b8.addEventListener("click", ()=> {
   main.src="목적지-세부";
   zero();
+  const img = document.createElement("img");
+  img.src = "메세지";
+  img.width = 200;
+  img.alt = "ONWAY 홈 화면";
+  img.style.left="400px"
+  img.style.top="150px";
+  document.body.appendChild(img);
   b5.style.left="740px";
   b5.style.top="390px";
             }
